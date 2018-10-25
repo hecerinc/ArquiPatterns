@@ -15,7 +15,6 @@ enum class PizzaType {
 };
 
 class Pizza {
-	private:
 	public:
 		static std::string getType(PizzaType type) {
 			switch(type) {

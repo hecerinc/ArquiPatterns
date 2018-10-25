@@ -8,7 +8,7 @@
 
 // Concrete implementation
 
-class MetropolisStore : PizzaStore {
+class MetropolisStore : public PizzaStore {
 	public:
 		MetropolisStore() {
 			this->city = "Metropolis";
