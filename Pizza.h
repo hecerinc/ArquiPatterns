@@ -16,6 +16,7 @@ enum class PizzaType {
 
 class Pizza {
 	public:
+		virtual ~Pizza() {};
 		static std::string getType(PizzaType type) {
 			switch(type) {
 				case PizzaType::ARTICHOKE:
