@@ -32,13 +32,13 @@ class Pizza {
 		}
 		//virtual void add(Ingredient) = 0;
 		virtual void prepare() = 0; // TODO: change this
-		void bake() {
+		virtual void bake() {
 			std::cout << "The default bake function from Pizza" << std::endl;
 		}
-		void slice() {
+		virtual void slice() {
 			std::cout << "The default slice function from Pizza" << std::endl;
 		}
-		void box() {
+		virtual void box() {
 			std::cout << "The default slice function from Pizza" << std::endl;
 		}
 };

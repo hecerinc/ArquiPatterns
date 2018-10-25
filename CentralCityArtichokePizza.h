@@ -9,7 +9,7 @@ class CentralCityArtichokePizza : public Pizza {
 		void prepare() {
 			cout << "Preparing Central City Artichoke pizza!" << endl;
 		}
-		void bake() {
+		void bake() override {
 			cout << "Baking at 410 F for 25 minutes" << endl;
 		}
 
