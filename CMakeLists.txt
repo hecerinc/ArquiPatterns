@@ -11,6 +11,7 @@ add_executable(pattern1
         GothamStore.h
         main.cpp
         MetropolisStore.h
+        StarCityHawaiianPizza.h
         Pizza.h
         PizzaStore.h
         StarCityStore.h)

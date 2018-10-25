@@ -1,5 +1,9 @@
-// CentralCityArtichokePizza
+// CentralCityArtichokePizza.h
+#ifndef _H_CENTRALCITYARTICHOKEPIZZA
+#define _H_CENTRALCITYARTICHOKEPIZZA
+
 #include <iostream>
+
 #include "Pizza.h"
 
 using namespace std;
@@ -14,4 +18,6 @@ class CentralCityArtichokePizza : public Pizza {
 		}
 
 };
+
+#endif 
 

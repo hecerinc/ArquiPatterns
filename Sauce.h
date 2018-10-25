@@ -8,7 +8,7 @@
 
 class Sauce : public Ingredient {
 	public:
-		virtual Sauce() {
+		Sauce() {
 			this->name = "Sauce";
 		}
 };

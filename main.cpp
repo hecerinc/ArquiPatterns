@@ -2,15 +2,16 @@
 #include <iostream>
 #include <string>
 #include "Pizza.h"
-#include "CentralCityStore.h"
+// #include "CentralCityStore.h"
+#include "StarCityStore.h"
 
 using namespace std;
 
 int main() {
-	PizzaStore * metropolis_store = new CentralCityStore();
-	Pizza * mypizza = metropolis_store->orderPizza(PizzaType::ARTICHOKE);
+	PizzaStore * store = new StarCityStore();
+	Pizza * mypizza = store->orderPizza(PizzaType::HAWAIIAN);
 
 	delete mypizza;
-	delete metropolis_store;
+	delete store;
 }
 

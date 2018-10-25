@@ -7,7 +7,7 @@
 
 class Dough : public Ingredient {
 	public:
-		virtual Dough() {
+		Dough() {
 			this->name = "Dough";
 		}
 };

@@ -3,6 +3,9 @@
 #ifndef _H_INGREDIENTSFACTORY_DP
 #define _H_INGREDIENTSFACTORY_DP
 
+#include "Dough.h"
+#include "Cheese.h"
+#include "Sauce.h"
 
 // << interface >>
 class IngredientsFactory {
